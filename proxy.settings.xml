@@ -1,0 +1,7 @@
+<application>
+  <component name="HttpConfigurable">
+    <option name="USE_PROXY_PAC" value="true" />
+    <option name="USE_PAC_URL" value="true" />
+    <option name="PAC_URL" value="http://txp-01.tencent.com/proxy.pac?ip=10.24.71.17&amp;pc=wetestlab-PC104&amp;ver=5.0.58.131" />
+  </component>
+</application>

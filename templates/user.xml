@@ -1,0 +1,17 @@
+<templateSet group="user">
+  <template name="dc" value="document.createElement(&quot;$END$&quot;);" description="创建元素" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="vuet" value="&lt;template&gt;&#10;  &lt;div&gt;&#10;  &#10;  &lt;/div&gt;&#10;&lt;/template&gt;&#10;&lt;script&gt;&#10;  export default {&#10;    data () {&#10;      return {}&#10;    }&#10;  }&#10;&lt;/script&gt;&#10;&lt;style&gt;&#10;&#10;&lt;/style&gt;" description="vue模板" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="OTHER" value="true" />
+    </context>
+  </template>
+  <template name="jsx" value="import {Component} from 'react'&#10;import {connect} from 'dva'&#10;&#10;@connect(({}) =&gt; ({&#10;    &#10;}))&#10;export default class $END$ extends Component {&#10;    render() {&#10;        return ()&#10;    }&#10;}" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>

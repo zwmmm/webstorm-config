@@ -1,0 +1,18 @@
+<templateSet group="html/xml">
+  <template name="jq" value="&lt;script src=&quot;jquery-1.12.4.js&quot;&gt;&lt;/script&gt;&#10;&lt;script&gt;&#10;    $(function () {&#10;        //思路分析：&#10;        //1. $END$&#10;    });&#10;&lt;/script&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="tpl" value="&lt;script type=&quot;text/template&quot; id=&quot;$end$&quot;&gt;&lt;/script&gt;" description="模板标签" toReformat="false" toShortenFQNames="true">
+    <variable name="end" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="/" value="&lt;!-- ---------- $END$ ----------- --&gt;" description="添加注释" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,49 @@
+<templateSet group="JavaScript">
+  <template name="hc" value="/**&#10; * @file $FILE_NAME$&#10; * @author $USER$&#10; * @date $DATE$&#10; */&#10;$END$" description="header comments" toReformat="false" toShortenFQNames="true">
+    <variable name="FILE_NAME" expression="fileName()" defaultValue="" alwaysStopAt="true" />
+    <variable name="USER" expression="user()" defaultValue="" alwaysStopAt="true" />
+    <variable name="DATE" expression="date()" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="esdfc" value="/* eslint-disable fecs-camelcase */&#10;$END$" description="禁用camel" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="esefc" value="/* eslint-enable fecs-camelcase */&#10;$END$" description="启用camel" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="esen" value="/* eslint-env node */&#10;$END$" description="声明node环境" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="f" value="($ARGS$) =&gt; {&#10;    $END$&#10;}" description="array function" toReformat="false" toShortenFQNames="true">
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name=".t" value=".then(($ARGS$) =&gt; {&#10;    $CONTENT$&#10;})&#10;$END$" description="promise then" toReformat="false" toShortenFQNames="true">
+    <variable name="ARGS" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="CONTENT" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="cl" value="console.log($END$)" description="打印" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+  <template name="/" value="/*-- ---------- $END$ ---------- --*/" description="注释" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="JAVA_SCRIPT" value="true" />
+    </context>
+  </template>
+</templateSet>
