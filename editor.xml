@@ -2,7 +2,7 @@
   <component name="DefaultFont">
     <option name="FONT_SIZE" value="17" />
     <option name="FONT_FAMILY" value="Dank Mono" />
-    <option name="SECONDARY_FONT_FAMILY" value="Menlo" />
+    <option name="SECONDARY_FONT_FAMILY" value="SimSun" />
   </component>
   <component name="EditorSettings">
     <option name="languageBreadcrumbsMap">
