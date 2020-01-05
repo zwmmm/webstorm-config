@@ -4,7 +4,7 @@
     <property name="created">2019-01-31T11:27:26</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2018.2.4.0.0</property>
-    <property name="modified">2020-01-05T17:22:10</property>
+    <property name="modified">2020-01-05T21:01:48</property>
     <property name="originalScheme">Roboticket Light viyar 3.0</property>
   </metaInfo>
   <option name="CONSOLE_FONT_NAME" value="Menlo" />
@@ -13226,6 +13226,11 @@
       <value>
         <option name="BACKGROUND" value="ffcfbb" />
         <option name="ERROR_STRIPE_COLOR" value="e49257" />
+      </value>
+    </option>
+    <option name="XML_TAG">
+      <value>
+        <option name="FOREGROUND" value="992697" />
       </value>
     </option>
   </attributes>
