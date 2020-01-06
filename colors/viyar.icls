@@ -4,10 +4,11 @@
     <property name="created">2019-01-31T11:27:26</property>
     <property name="ide">WebStorm</property>
     <property name="ideVersion">2018.2.4.0.0</property>
-    <property name="modified">2020-01-06T09:41:41</property>
+    <property name="modified">2020-01-06T10:45:18</property>
     <property name="originalScheme">Roboticket Light viyar 3.0</property>
   </metaInfo>
   <option name="CONSOLE_FONT_NAME" value="Consolas" />
+  <option name="CONSOLE_FONT_SIZE" value="17" />
   <option name="CONSOLE_LINE_SPACING" value="1.0" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="7fde7b" />
