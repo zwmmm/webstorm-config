@@ -1,4 +1,7 @@
 <keymap version="1" name="Default copy" parent="$default">
+  <action id="Javascript.Linters.EsLint.Fix">
+    <keyboard-shortcut first-keystroke="shift alt l" />
+  </action>
   <action id="Vcs.ReformatCommitMessage" />
   <action id="context.load" />
 </keymap>
